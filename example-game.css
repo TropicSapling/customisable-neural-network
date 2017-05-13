@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+canvas {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+#bg {
+	z-index: 0;
+}
+
+#game {
+	z-index: 1;
+}
+
+#perf {
+	z-index: 2;
+}
